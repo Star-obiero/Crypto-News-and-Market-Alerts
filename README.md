@@ -472,6 +472,5 @@ This runs six suites (about 200 checks) with Node and Python. They feed the dete
 ## Disclaimer
 
 This project sends **information**, not trading signals. Directions like "bullish" or "possible selling pressure" are common rules of thumb or an AI's rough guess from a headline, and they are often wrong. Nothing here is financial advice, and you are responsible for your own trading decisions.
-#   C r y p t o - N e w s - a n d - M a r k e t - A l e r t s 
- 
+#
  
