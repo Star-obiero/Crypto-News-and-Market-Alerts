@@ -48,13 +48,13 @@ Built with [n8n](https://n8n.io) (the workflows) and a small Python script (the 
 Real alerts in Telegram. Each headline alert is followed by a silent reply from the AI step; the quoted line at the top of each bubble is the alert it answers. Two of these three headlines are noise (a Senate race, Australian inflation), and the AI marks them "unclear" with low confidence. That is the safety net doing its job, and it also shows where the keyword lists can be tightened (see [Configuration](#configuration)).
 
 <p align="center">
-  <img src="docs/images/telegram-alerts.png" alt="Telegram chat showing headline alerts, each followed by an AI rough read with confidence and an already-priced-in verdict" width="560">
+  <img src="Screenshots/Telegram-alerts.png" alt="Telegram chat showing headline alerts, each followed by an AI rough read with confidence and an already-priced-in verdict" width="560">
 </p>
 
 The workflows running together on one n8n canvas: the live market and positioning watchers at the top, the news funnel with its AI follow-up along the bottom.
 
 <p align="center">
-  <img src="docs/images/n8n-canvas.png" alt="n8n canvas with the market, release-day and news workflows connected to Telegram nodes" width="700">
+  <img src="Screenshots/n8n-workflow.png" alt="n8n canvas with the market, release-day and news workflows connected to Telegram nodes" width="700">
 </p>
 
 ---
@@ -308,14 +308,14 @@ Notification loudness follows severity: low-severity alerts and every AI reply a
 1. In Telegram, message **@BotFather**, send `/newbot` and follow the prompts.
 2. Copy the bot token and keep it safe.
 3. Open a chat with your new bot and send it any message.
-4. Open `https://api.telegram.org/bot<YOUR_TOKEN>/getUpdates` in a browser and read `message.chat.id`. That is your **chat ID**.
+4. Open `https://api.telegram.org/bot<>/getUpdates` in a browser and read `message.chat.id`. That is your **chat ID**.
 
 > **About the token:** paste the **whole** token exactly as BotFather gave it, including the number at the start and the colon (for example `123456789:AAH...`). Do **not** add the word `bot` in front of it in n8n. That prefix is only used in the raw URL in step 4.
 
 ### 2. Get the code
 
 ```bash
-git clone https://github.com/<your-username>/crypto-news-alerts.git
+git clone https://github.com/<star obiero>/crypto-news-alerts.git
 cd crypto-news-alerts
 ```
 
@@ -472,5 +472,6 @@ This runs six suites (about 200 checks) with Node and Python. They feed the dete
 ## Disclaimer
 
 This project sends **information**, not trading signals. Directions like "bullish" or "possible selling pressure" are common rules of thumb or an AI's rough guess from a headline, and they are often wrong. Nothing here is financial advice, and you are responsible for your own trading decisions.
-#   C r y p t o - N e w s - a n d - M a r k e t - A l e r t s  
+#   C r y p t o - N e w s - a n d - M a r k e t - A l e r t s 
+ 
  
