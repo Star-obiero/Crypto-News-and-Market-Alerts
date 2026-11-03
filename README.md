@@ -48,7 +48,7 @@ Built with [n8n](https://n8n.io) (the workflows) and a small Python script (the 
 Real alerts in Telegram. Each headline alert is followed by a silent reply from the AI step; the quoted line at the top of each bubble is the alert it answers. Two of these three headlines are noise (a Senate race, Australian inflation), and the AI marks them "unclear" with low confidence. That is the safety net doing its job, and it also shows where the keyword lists can be tightened (see [Configuration](#configuration)).
 
 <p align="center">
-  <img src="Screenshots/Telegram-alerts.png" alt="Telegram chat showing headline alerts, each followed by an AI rough read with confidence and an already-priced-in verdict" width="560">
+  <img src="Screenshots/Telegram-Alert.png" alt="Telegram chat showing headline alerts, each followed by an AI rough read with confidence and an already-priced-in verdict" width="560">
 </p>
 
 The workflows running together on one n8n canvas: the live market and positioning watchers at the top, the news funnel with its AI follow-up along the bottom.
